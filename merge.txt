@@ -1,1 +1,2 @@
 Welcome to git hub merge branch
+welcome to merge command .git
