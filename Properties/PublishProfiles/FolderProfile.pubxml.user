@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\.NetCore5\WebApplication1\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2025-11-14T09:55:27.1104228Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

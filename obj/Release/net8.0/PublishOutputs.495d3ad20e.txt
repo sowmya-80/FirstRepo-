@@ -1,0 +1,7 @@
+E:\.NetCore5\WebApplication1\obj\Release\net8.0\PubTmp\Out\WebApplication1.exe
+E:\.NetCore5\WebApplication1\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+E:\.NetCore5\WebApplication1\obj\Release\net8.0\PubTmp\Out\appsettings.json
+E:\.NetCore5\WebApplication1\obj\Release\net8.0\PubTmp\Out\WebApplication1.dll
+E:\.NetCore5\WebApplication1\obj\Release\net8.0\PubTmp\Out\WebApplication1.deps.json
+E:\.NetCore5\WebApplication1\obj\Release\net8.0\PubTmp\Out\WebApplication1.runtimeconfig.json
+E:\.NetCore5\WebApplication1\obj\Release\net8.0\PubTmp\Out\WebApplication1.pdb
