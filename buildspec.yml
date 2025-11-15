@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+
+  install:
+     dotnet: 9.0
+
+  pre_build:
+     -echo "Prebuild is started..."
+     dotnet restore
+  
+  build:
+    commands:
+      - echo "Building project..."
+      - dotnet build --configuration release
+
+  post_build:
+    commands:
+      - echo "Post Build started .."
+      - dotnet publish --configuration release -o ./publish
+
+artifacts:
+  files:
+    -  publish/**/*
+   base-directory: ./publish
+
+  
