@@ -3,11 +3,13 @@ version: 0.2
 phases:
 
   install:
-     dotnet: 9.0
+     commands:
+       - dotnet --version
 
   pre_build:
-     -echo "Prebuild is started..."
-     dotnet restore
+    commands:
+     -  echo "Prebuild is started..."
+     -  dotnet restore
   
   build:
     commands:
@@ -20,8 +22,9 @@ phases:
       - dotnet publish --configuration release -o ./publish
 
 artifacts:
+  base-directory: publish
   files:
-    -  publish/**/*
-   base-directory: ./publish
+    -  '**/*'
+  
 
   
