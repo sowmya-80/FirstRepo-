@@ -1,3 +1,8 @@
 #!/bin/bash
-cd /var/www/dotnetapp
-nohup dotnet MyApp.dll > /dev/null 2>&1 &
+
+echo "Starting .NET app using systemd..."
+
+systemctl daemon-reload
+systemctl start dotnetapp.service
+systemctl enable dotnetapp.service
+
