@@ -1,2 +1,4 @@
 #!/bin/bash
-pkill -f "dotnet MyApp.dll" || true
+echo "Stopping existing .NET app..."
+
+systemctl stop dotnetapp.service || true
